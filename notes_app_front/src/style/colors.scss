@@ -1,0 +1,27 @@
+@use 'sass:color';
+
+
+$root-background: #fdfde2e1;
+$primary-background: #ebe3e3;
+$secondary-background: #38926c;
+$tertiary-background: #185969e1;
+
+
+$title-font: #effaff;
+$secondary-font: #ddddd8;
+$primary-font: #403c3c;
+
+$primary-border: #605f5e;
+
+$primary-button: #f19c3a;
+
+$error : #c96262;
+
+
+
+@function darkenColor($color, $amount) {
+    @return color.mix(black, $color, $amount);
+}
+@function lightenColor($color, $amount) {
+    @return color.mix(white, $color, $amount);
+}

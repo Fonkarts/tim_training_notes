@@ -1,0 +1,17 @@
+@use "../../style/colors" as *;
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    color: $primary-font;
+    padding: 1rem 2rem;
+
+    & h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+   
+}
